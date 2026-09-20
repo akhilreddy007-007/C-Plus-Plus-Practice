@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+bool rev(int a){
+
+int temp=a;
+int rem = 0;
+while(a>0){
+int r = a%10;
+ rem = rem*10+r;
+ a=a/10;
+}
+return temp==rem;
+}
+
+int main(){
+int a;
+cout<<"Enter values\n";
+cin>>a;
+if(rev(a)){
+    cout<<"given no is palindrome";
+}
+else{
+    cout<<"No a palindrome";
+}
+
+return 0;
+}
+
+output:-
+~~~~~~
+Enter values
+121
+given no is palindrome
+
+
+Enter values
+1234
+No a palindrome
