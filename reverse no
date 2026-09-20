@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a;
+cout<<"Enter values\n";
+cin>>a;
+int temp=a;
+int rem = 0;
+while(a>0){
+int r = a%10;
+ rem = rem*10+r;
+ a=a/10;
+}
+cout<<"original number is "<<temp<<" reverse is "<<rem;
+return 0;
+}
+
+output:-
+~~~~~~
+Enter values
+1234
+original number is 1234 reverse is 4321
