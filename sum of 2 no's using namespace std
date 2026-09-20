@@ -8,3 +8,10 @@ int sum = a+b;
 cout<<"sum of "<<a<<" + "<<b<<" is "<<sum;
 return 0;
 }
+
+output:-
+~~~~~~
+Enter 2 values
+1
+2
+sum of 1 + 2 is 3
