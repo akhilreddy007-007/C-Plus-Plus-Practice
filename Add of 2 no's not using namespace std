@@ -7,3 +7,9 @@ int sum = a+b;
 std::cout<<"sum of "<<a<<" + "<<b<<" is "<<sum;
 return 0;
 }
+
+output:-
+~~~~~~~
+Enter 2 values1
+2
+sum of 1 + 2 is 3
