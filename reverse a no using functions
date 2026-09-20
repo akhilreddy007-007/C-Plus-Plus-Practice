@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+void rev(int a){
+
+int temp=a;
+int rem = 0;
+while(a>0){
+int r = a%10;
+ rem = rem*10+r;
+ a=a/10;
+}
+cout<<"original number is "<<temp<<" reverse is "<<rem;
+}
+
+int main(){
+int a;
+cout<<"Enter values\n";
+cin>>a;
+rev(a);
+
+return 0;
+}
+
+
+output:-
+~~~~~~
