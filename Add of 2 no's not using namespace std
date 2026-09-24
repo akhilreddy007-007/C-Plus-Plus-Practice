@@ -1,6 +1,7 @@
 #include<iostream>
 int main(){
 int a,b;
+//if we use using namespace std, we not needed to write std::
 std::cout<<"Enter 2 values";
 std::cin>>a>>b;
 int sum = a+b;
